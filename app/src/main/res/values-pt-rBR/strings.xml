@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navigation -->
+    <string name="nav_home">Início</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_settings">Configurações</string>
+
+    <!-- Home -->
+    <string name="home_subtitle">Cole um link e salve no formato que quiser.</string>
+    <string name="home_url_hint">Cole um link do YouTube, Instagram ou TikTok</string>
+    <string name="home_supported">Funciona com</string>
+    <string name="home_tip_title">Dica</string>
+    <string name="home_tip_body">No YouTube, Instagram ou TikTok toque em Compartilhar e escolha o SnapFree. O link abre aqui e é analisado automaticamente.</string>
+    <string name="home_error_title">Não foi possível ler este link</string>
+    <string name="home_error_hint">O SnapFree já atualizou o yt-dlp e tentou de novo. Confira o link ou tente daqui a alguns minutos.</string>
+    <string name="engine_initializing">Preparando o mecanismo de download… (só demora na primeira abertura)</string>
+    <string name="engine_failed">O mecanismo de download não iniciou: %1$s</string>
+
+    <string name="link_not_url">Cole um link que comece com https://</string>
+    <string name="link_incomplete">Este link parece incompleto. Continue digitando ou cole o link completo.</string>
+    <string name="link_detected">Link do %1$s detectado</string>
+    <string name="link_analyzing">Analisando link do %1$s…</string>
+    <string name="link_ready">%1$s · pronto para baixar</string>
+    <string name="link_failed">%1$s · não foi possível ler</string>
+    <string name="action_analyze_anyway">Analisar mesmo assim</string>
+    <string name="label_download_options">Opções de download</string>
+    <string name="download_added">Adicionado à fila</string>
+
+    <string name="tab_video">Vídeo</string>
+    <string name="tab_audio">Áudio</string>
+    <string name="tab_formats">Formatos</string>
+    <string name="label_container">Formato do arquivo</string>
+    <string name="label_quality">Qualidade</string>
+    <string name="label_audio_format">Formato de áudio</string>
+    <string name="label_bitrate">Taxa de bits</string>
+    <string name="label_all_formats">Todos os formatos oferecidos pela fonte</string>
+    <string name="quality_best">Melhor disponível</string>
+    <string name="audio_original">Original</string>
+    <string name="format_audio_only">só áudio</string>
+    <string name="format_video_only">só vídeo, o áudio será mesclado</string>
+    <string name="snackbar_queued">Adicionado à fila de downloads</string>
+
+    <!-- Actions -->
+    <string name="action_analyze">Analisar link</string>
+    <string name="action_download">Baixar</string>
+    <string name="action_paste">Colar</string>
+    <string name="action_clear">Limpar</string>
+    <string name="action_retry">Tentar de novo</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_open">Abrir</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="action_more">Mais opções</string>
+    <string name="action_view">Ver</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_update">Atualizar</string>
+    <string name="action_import_file">Importar arquivo</string>
+    <string name="action_remove_history">Remover do histórico</string>
+    <string name="action_delete_file">Excluir arquivo</string>
+    <string name="action_clear_history">Limpar concluídos</string>
+
+    <!-- Downloads -->
+    <string name="downloads_active">Em andamento (%1$d)</string>
+    <string name="downloads_history">Histórico</string>
+    <string name="downloads_empty_title">Nenhum download ainda</string>
+    <string name="downloads_empty_message">Sua fila e os downloads concluídos aparecem aqui.</string>
+    <string name="status_queued">Aguardando na fila</string>
+    <string name="status_starting">Iniciando…</string>
+    <string name="status_processing">Processando com FFmpeg…</string>
+    <string name="status_saving">Salvando…</string>
+    <string name="status_failed">Falhou · toque para ver detalhes</string>
+    <string name="status_cancelled">Cancelado</string>
+    <string name="status_eta">faltam %1$s</string>
+    <string name="error_no_output">O yt-dlp terminou sem gerar um arquivo</string>
+    <string name="error_no_app">Nenhum app consegue abrir este arquivo</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_progress">Progresso dos downloads</string>
+    <string name="notification_channel_result">Downloads concluídos</string>
+    <string name="notification_completed">Download concluído</string>
+    <string name="notification_failed">Falha no download</string>
+
+    <!-- Settings -->
+    <string name="settings_appearance">Aparência</string>
+    <string name="settings_formats">Formatos padrão</string>
+    <string name="settings_processing">Pós-processamento</string>
+    <string name="settings_downloads">Armazenamento e fila</string>
+    <string name="settings_network">Rede e contas</string>
+    <string name="settings_engine">Mecanismo yt-dlp</string>
+    <string name="settings_about">Sobre</string>
+
+    <string name="setting_theme">Tema</string>
+    <string name="theme_system">Seguir o sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+    <string name="setting_pure_black">Preto puro</string>
+    <string name="setting_pure_black_desc">Usa preto absoluto no tema escuro (economiza bateria em telas OLED)</string>
+    <string name="setting_language">Idioma</string>
+    <string name="language_system">Seguir o sistema</string>
+
+    <string name="setting_default_mode">Aba pré-selecionada</string>
+    <string name="setting_video_container">Formato de vídeo</string>
+    <string name="setting_video_quality">Qualidade de vídeo preferida</string>
+    <string name="setting_audio_format">Formato de áudio</string>
+    <string name="setting_audio_bitrate">Taxa de bits do áudio</string>
+
+    <string name="setting_embed_metadata">Incorporar metadados</string>
+    <string name="setting_embed_metadata_desc">Grava título, artista e data no arquivo</string>
+    <string name="setting_embed_thumbnail">Incorporar miniatura</string>
+    <string name="setting_embed_thumbnail_desc">Usa a miniatura do vídeo como capa</string>
+    <string name="setting_embed_subs">Incorporar legendas</string>
+    <string name="setting_embed_subs_desc">Adiciona as legendas disponíveis em vídeos MP4 e MKV</string>
+    <string name="setting_sub_langs">Idiomas das legendas</string>
+    <string name="setting_sub_langs_desc">Códigos de idioma separados por vírgula, ex.: pt,en. Use all para todos.</string>
+    <string name="setting_sponsorblock">SponsorBlock</string>
+    <string name="setting_sponsorblock_desc">Remove trechos de patrocínio de vídeos do YouTube</string>
+
+    <string name="setting_location">Local de salvamento</string>
+    <string name="location_downloads">Pasta Download</string>
+    <string name="location_media">Filmes e Músicas (galeria)</string>
+    <string name="setting_subfolder">Subpasta</string>
+    <string name="setting_subfolder_desc">Criada dentro do local de salvamento. Deixe vazio para salvar direto lá.</string>
+    <string name="setting_concurrent">Downloads simultâneos</string>
+    <string name="setting_fragments">Fragmentos paralelos por download</string>
+    <string name="setting_wifi_only">Somente Wi-Fi</string>
+    <string name="setting_wifi_only_desc">Espera uma conexão sem limite de dados antes de baixar</string>
+
+    <string name="setting_cookies">Cookies</string>
+    <string name="setting_cookies_loaded">Arquivo de cookies carregado</string>
+    <string name="setting_cookies_none">Não definido · avançado, prefira entrar na conta acima</string>
+    <string name="setting_use_cookies">Usar cookies</string>
+    <string name="setting_use_cookies_desc">Envia os cookies em todas as requisições (acesso logado)</string>
+    <string name="cookies_help">Cole ou importe um arquivo cookies.txt no formato Netscape. Exporte no computador com uma extensão como \"Get cookies.txt LOCALLY\" enquanto estiver logado no site. Entrar pela seção Contas é mais fácil. Mantenha esse arquivo em sigilo.</string>
+    <string name="setting_proxy">Proxy</string>
+    <string name="setting_proxy_desc">URL de proxy HTTP, HTTPS ou SOCKS. Deixe vazio para conectar direto.</string>
+    <string name="setting_rate_limit">Limite de velocidade</string>
+    <string name="setting_rate_limit_desc">Taxa máxima em bytes por segundo, ex.: 500K ou 2M. Deixe vazio para ilimitado.</string>
+    <string name="setting_user_agent">User agent</string>
+    <string name="value_none">Nenhum</string>
+    <string name="value_unlimited">Ilimitado</string>
+    <string name="value_default">Padrão</string>
+
+    <string name="setting_update_ytdlp">Atualizar yt-dlp</string>
+    <string name="ytdlp_version">Versão instalada: %1$s</string>
+    <string name="ytdlp_updated">yt-dlp atualizado para</string>
+    <string name="ytdlp_up_to_date">O yt-dlp já está atualizado</string>
+    <string name="ytdlp_update_failed">Falha na atualização</string>
+    <string name="setting_update_channel">Canal de atualização</string>
+    <string name="channel_stable">Estável</string>
+    <string name="channel_nightly">Nightly (correções chegam antes)</string>
+    <string name="setting_auto_update">Atualização automática</string>
+    <string name="setting_auto_update_desc">Procura uma nova versão do yt-dlp uma vez por dia ao abrir</string>
+    <string name="setting_extra_args">Argumentos extras do yt-dlp</string>
+    <string name="setting_extra_args_desc">Avançado. Adicionados a todo comando de download. Opções erradas podem fazer os downloads falharem.</string>
+
+    <string name="about_version">Versão %1$s</string>
+    <string name="about_disclaimer">Para uso pessoal. Baixe apenas conteúdo que você tem direito de salvar. Usa yt-dlp e FFmpeg.</string>
+
+    <!-- 0.2.0: erros, login, novas tentativas -->
+    <string name="status_retrying">Tentando de novo com outro método…</string>
+    <string name="home_updating_engine">Atualizando o yt-dlp antes, pode levar alguns segundos…</string>
+    <string name="action_login">Entrar no %1$s</string>
+    <string name="action_login_again">Entrar no %1$s de novo</string>
+    <string name="login_title">Entrar no %1$s</string>
+    <string name="login_done">Concluir</string>
+    <string name="login_not_yet">Você ainda não entrou. Termine o login na página primeiro.</string>
+    <string name="login_success">Conectado ao %1$s. O SnapFree vai usar esta sessão.</string>
+
+    <string name="err_instagram_login_title">O Instagram pediu login</string>
+    <string name="err_instagram_login_hint">O Instagram agora bloqueia a maioria dos downloads sem conta, até de reels públicos. Entre uma vez dentro do SnapFree e tente de novo. Sua senha vai só para o Instagram.</string>
+    <string name="err_youtube_bot_title">O YouTube pediu para confirmar que você não é um robô</string>
+    <string name="err_youtube_bot_hint">O SnapFree já tentou outros métodos. Espere alguns minutos, alterne entre Wi-Fi e dados móveis ou entre no YouTube dentro do SnapFree.</string>
+    <string name="err_youtube_403_title">O YouTube recusou o download (403)</string>
+    <string name="err_youtube_403_hint">O SnapFree atualizou o yt-dlp e tentou outros clientes do YouTube, mas o YouTube continuou recusando. Tente mais tarde, escolha outra qualidade, mude para o canal Nightly nas Configurações ou entre no YouTube.</string>
+    <string name="err_age_title">Vídeo com restrição de idade</string>
+    <string name="err_age_hint">Este vídeo exige uma conta adulta. Entre dentro do SnapFree e tente de novo.</string>
+    <string name="err_login_title">Este conteúdo exige login</string>
+    <string name="err_login_hint">Entre no site dentro do SnapFree e tente de novo.</string>
+    <string name="err_private_title">Conteúdo privado</string>
+    <string name="err_private_hint">Só contas autorizadas pelo dono podem ver. Entre com uma conta que segue esse perfil.</string>
+    <string name="err_unavailable_title">Conteúdo indisponível</string>
+    <string name="err_unavailable_hint">Foi removido, ficou privado ou o link está errado.</string>
+    <string name="err_geo_title">Bloqueado no seu país</string>
+    <string name="err_geo_hint">O dono limitou este conteúdo a outros países. Um proxy (Configurações › Rede) pode ajudar.</string>
+    <string name="err_unsupported_title">Link não suportado</string>
+    <string name="err_unsupported_hint">Confira se é um link de vídeo ou post. Atualizar o yt-dlp adiciona suporte a novos tipos de link.</string>
+    <string name="err_network_title">Sem conexão</string>
+    <string name="err_network_hint">Verifique sua internet e tente de novo.</string>
+    <string name="err_rate_title">Muitas requisições</string>
+    <string name="err_rate_hint">O site está limitando sua conexão. Espere alguns minutos ou entre na sua conta e tente de novo.</string>
+    <string name="err_format_title">Esta qualidade não está disponível</string>
+    <string name="err_format_hint">Escolha outra qualidade ou formato e tente de novo.</string>
+
+    <string name="settings_accounts">Contas</string>
+    <string name="accounts_help">Entre para usar sua sessão nos downloads. O Instagram exige isso para quase todo post. Entrar no YouTube é opcional e só ajuda com verificação de robô e restrição de idade; usar uma conta com um baixador tem um pequeno risco de o YouTube sinalizá-la.</string>
+    <string name="account_logged_in">Conectado · toque para sair</string>
+    <string name="account_logged_out">Desconectado · toque para entrar</string>
+    <string name="account_logout_title">Sair do %1$s?</string>
+    <string name="account_logout_message">O SnapFree vai esquecer esta sessão.</string>
+    <string name="action_logout">Sair</string>
+    <string name="setting_cookies_manual">Arquivo de cookies manual</string>
+    <string name="setting_use_cookies_manual_desc">Enviar o arquivo de cookies manual em todas as requisições</string>
+    <string name="setting_auto_update_desc_v2">Procurar um yt-dlp novo a cada 12 horas e logo após uma falha</string>
+</resources>

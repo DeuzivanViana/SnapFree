@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">SnapFree</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home -->
+    <string name="home_subtitle">Paste a link and save it in the format you want.</string>
+    <string name="home_url_hint">Paste a YouTube, Instagram or TikTok link</string>
+    <string name="home_supported">Works with</string>
+    <string name="home_tip_title">Tip</string>
+    <string name="home_tip_body">In YouTube, Instagram or TikTok tap Share and choose SnapFree. The link opens here and is analyzed automatically.</string>
+    <string name="home_error_title">Could not read this link</string>
+    <string name="home_error_hint">SnapFree already updated yt-dlp and retried. Check the link, or try again in a few minutes.</string>
+    <string name="engine_initializing">Preparing the download engine… (only slow on first launch)</string>
+    <string name="engine_failed">Download engine failed to start: %1$s</string>
+
+    <string name="link_not_url">Paste a link that starts with https://</string>
+    <string name="link_incomplete">This link looks incomplete. Keep typing or paste the full link.</string>
+    <string name="link_detected">%1$s link detected</string>
+    <string name="link_analyzing">Analyzing %1$s link…</string>
+    <string name="link_ready">%1$s · ready to download</string>
+    <string name="link_failed">%1$s · could not be read</string>
+    <string name="action_analyze_anyway">Analyze anyway</string>
+    <string name="label_download_options">Download options</string>
+    <string name="download_added">Added to the queue</string>
+
+    <string name="tab_video">Video</string>
+    <string name="tab_audio">Audio</string>
+    <string name="tab_formats">Formats</string>
+    <string name="label_container">Container</string>
+    <string name="label_quality">Quality</string>
+    <string name="label_audio_format">Audio format</string>
+    <string name="label_bitrate">Bitrate</string>
+    <string name="label_all_formats">All formats provided by the source</string>
+    <string name="quality_best">Best available</string>
+    <string name="audio_original">Original</string>
+    <string name="format_audio_only">audio only</string>
+    <string name="format_video_only">video only, audio will be merged</string>
+    <string name="snackbar_queued">Added to the download queue</string>
+
+    <!-- Actions -->
+    <string name="action_analyze">Analyze link</string>
+    <string name="action_download">Download</string>
+    <string name="action_paste">Paste</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_open">Open</string>
+    <string name="action_share">Share</string>
+    <string name="action_more">More options</string>
+    <string name="action_view">View</string>
+    <string name="action_save">Save</string>
+    <string name="action_update">Update</string>
+    <string name="action_import_file">Import file</string>
+    <string name="action_remove_history">Remove from history</string>
+    <string name="action_delete_file">Delete file</string>
+    <string name="action_clear_history">Clear finished</string>
+
+    <!-- Downloads -->
+    <string name="downloads_active">In progress (%1$d)</string>
+    <string name="downloads_history">History</string>
+    <string name="downloads_empty_title">No downloads yet</string>
+    <string name="downloads_empty_message">Your queue and finished downloads will appear here.</string>
+    <string name="status_queued">Waiting in queue</string>
+    <string name="status_starting">Starting…</string>
+    <string name="status_processing">Processing with FFmpeg…</string>
+    <string name="status_saving">Saving…</string>
+    <string name="status_failed">Failed · tap for details</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="status_eta">%1$s left</string>
+    <string name="error_no_output">yt-dlp finished without producing a file</string>
+    <string name="error_no_app">No app can open this file</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_progress">Download progress</string>
+    <string name="notification_channel_result">Finished downloads</string>
+    <string name="notification_completed">Download complete</string>
+    <string name="notification_failed">Download failed</string>
+
+    <!-- Settings -->
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_formats">Default formats</string>
+    <string name="settings_processing">Post-processing</string>
+    <string name="settings_downloads">Storage and queue</string>
+    <string name="settings_network">Network and accounts</string>
+    <string name="settings_engine">yt-dlp engine</string>
+    <string name="settings_about">About</string>
+
+    <string name="setting_theme">Theme</string>
+    <string name="theme_system">Follow system</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="setting_pure_black">Pure black</string>
+    <string name="setting_pure_black_desc">Use true black in dark theme (saves battery on OLED)</string>
+    <string name="setting_language">Language</string>
+    <string name="language_system">Follow system</string>
+
+    <string name="setting_default_mode">Preselected tab</string>
+    <string name="setting_video_container">Video format</string>
+    <string name="setting_video_quality">Preferred video quality</string>
+    <string name="setting_audio_format">Audio format</string>
+    <string name="setting_audio_bitrate">Audio bitrate</string>
+
+    <string name="setting_embed_metadata">Embed metadata</string>
+    <string name="setting_embed_metadata_desc">Write title, artist and date into the file</string>
+    <string name="setting_embed_thumbnail">Embed thumbnail</string>
+    <string name="setting_embed_thumbnail_desc">Use the video thumbnail as cover art</string>
+    <string name="setting_embed_subs">Embed subtitles</string>
+    <string name="setting_embed_subs_desc">Add available subtitles to MP4 and MKV videos</string>
+    <string name="setting_sub_langs">Subtitle languages</string>
+    <string name="setting_sub_langs_desc">Comma separated language codes, e.g. en,pt. Use all for every language.</string>
+    <string name="setting_sponsorblock">SponsorBlock</string>
+    <string name="setting_sponsorblock_desc">Cut sponsor segments from YouTube videos</string>
+
+    <string name="setting_location">Save location</string>
+    <string name="location_downloads">Download folder</string>
+    <string name="location_media">Movies and Music (gallery)</string>
+    <string name="setting_subfolder">Subfolder</string>
+    <string name="setting_subfolder_desc">Created inside the save location. Leave empty to save directly there.</string>
+    <string name="setting_concurrent">Simultaneous downloads</string>
+    <string name="setting_fragments">Parallel fragments per download</string>
+    <string name="setting_wifi_only">Wi-Fi only</string>
+    <string name="setting_wifi_only_desc">Wait for an unmetered connection before downloading</string>
+
+    <string name="setting_cookies">Cookies</string>
+    <string name="setting_cookies_loaded">Cookies file loaded</string>
+    <string name="setting_cookies_none">Not set · advanced, prefer logging in above</string>
+    <string name="setting_use_cookies">Use cookies</string>
+    <string name="setting_use_cookies_desc">Send cookies with every request (logged-in access)</string>
+    <string name="cookies_help">Paste or import a cookies.txt file in Netscape format. Export it on a computer with a browser extension such as \"Get cookies.txt LOCALLY\" while logged in to the site. Logging in under Accounts is easier. Keep this file private.</string>
+    <string name="setting_proxy">Proxy</string>
+    <string name="setting_proxy_desc">HTTP, HTTPS or SOCKS proxy URL. Leave empty to connect directly.</string>
+    <string name="setting_rate_limit">Speed limit</string>
+    <string name="setting_rate_limit_desc">Maximum download rate in bytes per second, e.g. 500K or 2M. Leave empty for unlimited.</string>
+    <string name="setting_user_agent">User agent</string>
+    <string name="value_none">None</string>
+    <string name="value_unlimited">Unlimited</string>
+    <string name="value_default">Default</string>
+
+    <string name="setting_update_ytdlp">Update yt-dlp</string>
+    <string name="ytdlp_version">Installed version: %1$s</string>
+    <string name="ytdlp_updated">yt-dlp updated to</string>
+    <string name="ytdlp_up_to_date">yt-dlp is already up to date</string>
+    <string name="ytdlp_update_failed">Update failed</string>
+    <string name="setting_update_channel">Update channel</string>
+    <string name="channel_stable">Stable</string>
+    <string name="channel_nightly">Nightly (fixes arrive sooner)</string>
+    <string name="setting_auto_update">Auto update</string>
+    <string name="setting_auto_update_desc">Check for a new yt-dlp once a day on launch</string>
+    <string name="setting_extra_args">Extra yt-dlp arguments</string>
+    <string name="setting_extra_args_desc">Advanced. Appended to every download command. Wrong options can make downloads fail.</string>
+
+    <string name="about_version">Version %1$s</string>
+    <string name="about_disclaimer">For personal use. Download only content you have the right to save. Powered by yt-dlp and FFmpeg.</string>
+
+    <!-- 0.2.0: errors, login, retries -->
+    <string name="status_retrying">Retrying with another method…</string>
+    <string name="home_updating_engine">Updating yt-dlp first, this can take a few seconds…</string>
+    <string name="action_login">Log in to %1$s</string>
+    <string name="action_login_again">Log in to %1$s again</string>
+    <string name="login_title">Log in to %1$s</string>
+    <string name="login_done">Done</string>
+    <string name="login_not_yet">Not logged in yet. Finish the login on the page first.</string>
+    <string name="login_success">Logged in to %1$s. SnapFree will use this session.</string>
+
+    <string name="err_instagram_login_title">Instagram asks for a login</string>
+    <string name="err_instagram_login_hint">Instagram now blocks most downloads without an account, even for public reels. Log in once inside SnapFree and try again. Your password only goes to Instagram.</string>
+    <string name="err_youtube_bot_title">YouTube asked to confirm you are not a bot</string>
+    <string name="err_youtube_bot_hint">SnapFree already retried with other methods. Wait a few minutes, switch between Wi-Fi and mobile data, or log in to YouTube inside SnapFree.</string>
+    <string name="err_youtube_403_title">YouTube refused the download (403)</string>
+    <string name="err_youtube_403_hint">SnapFree updated yt-dlp and retried with other YouTube clients, but YouTube still refused. Try again later, try another quality, switch to the Nightly channel in Settings, or log in to YouTube.</string>
+    <string name="err_age_title">Age-restricted video</string>
+    <string name="err_age_hint">This video needs an adult account. Log in inside SnapFree and try again.</string>
+    <string name="err_login_title">This content needs a login</string>
+    <string name="err_login_hint">Log in to the site inside SnapFree, then try again.</string>
+    <string name="err_private_title">Private content</string>
+    <string name="err_private_hint">Only accounts allowed by the owner can see it. Log in with an account that follows it.</string>
+    <string name="err_unavailable_title">Content not available</string>
+    <string name="err_unavailable_hint">It was removed, made private or the link is wrong.</string>
+    <string name="err_geo_title">Blocked in your country</string>
+    <string name="err_geo_hint">The owner limited this content to other countries. A proxy (Settings › Network) can help.</string>
+    <string name="err_unsupported_title">Link not supported</string>
+    <string name="err_unsupported_hint">Check that it is a link to a video or post. Updating yt-dlp adds support for new link types.</string>
+    <string name="err_network_title">No connection</string>
+    <string name="err_network_hint">Check your internet connection and try again.</string>
+    <string name="err_rate_title">Too many requests</string>
+    <string name="err_rate_hint">The site is limiting requests from your connection. Wait a few minutes or log in and try again.</string>
+    <string name="err_format_title">This quality is not available</string>
+    <string name="err_format_hint">Choose another quality or format and try again.</string>
+
+    <string name="settings_accounts">Accounts</string>
+    <string name="accounts_help">Log in to use your session for downloads. Instagram needs it for almost every post. Logging in to YouTube is optional and only helps with bot checks and age limits; using an account with a downloader carries a small risk of YouTube flagging it.</string>
+    <string name="account_logged_in">Logged in · tap to log out</string>
+    <string name="account_logged_out">Not logged in · tap to log in</string>
+    <string name="account_logout_title">Log out of %1$s?</string>
+    <string name="account_logout_message">SnapFree will forget this session.</string>
+    <string name="action_logout">Log out</string>
+    <string name="setting_cookies_manual">Manual cookies file</string>
+    <string name="setting_use_cookies_manual_desc">Send the manual cookies file with every request</string>
+    <string name="setting_auto_update_desc_v2">Check for a new yt-dlp every 12 hours and right after a failure</string>
+</resources>
